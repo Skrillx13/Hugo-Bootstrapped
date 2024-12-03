@@ -3,6 +3,13 @@ title: Hugo Bootstrapped
 languageCode: en-us
 baseURL: https://skrillx13.github.io/Hugo-Bootstrapped/
 
+# -- Markup Configuration --
+markup:
+  goldmark:
+    parser:
+      attribute:
+        block: true
+
 # -- URL Configuration --
 relativeURLs: true
 canonifyURLs: true
