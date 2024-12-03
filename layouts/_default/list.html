@@ -1,0 +1,10 @@
+<!-- List Template -->
+<!-- This Template displays content from a directory as lists, essentially displaying "posts". -->
+{{ define "main" }}
+  <h1>{{ .Title }}</h1>
+  {{ .Content }}
+  {{ range .Pages }}
+    <h2><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
+    {{ .Summary }}
+  {{ end }}
+{{ end }}

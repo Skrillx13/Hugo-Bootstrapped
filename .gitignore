@@ -1,0 +1,7 @@
+# -- Hugo Packages --
+.hugo_build.lock
+public
+
+# -- Misc --
+.vscode
+.DS_Store

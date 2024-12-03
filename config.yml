@@ -1,0 +1,8 @@
+# -- Site Information --
+title: Hugo Bootstrapped
+languageCode: en-us
+baseURL: https://skrillx13.github.io/Hugo-Bootstrapped/
+
+# -- URL Configuration --
+relativeURLs: true
+canonifyURLs: true
