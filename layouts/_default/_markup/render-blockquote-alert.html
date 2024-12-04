@@ -5,12 +5,11 @@
     "tip" "light-bulb"
     "warning" "alert"
   }}
-{{ $svg := resources.GetMatch (printf "svg/octicons/%s-16.svg" (index $svgs .AlertType)) }}
+{{ $svg := readFile (printf "static/svg/octicons/%s-16.svg" (index $svgs .AlertType)) }}
 <blockquote class="markdown-alert markdown-alert--{{ .AlertType }}">
   <div class="markdown-alert__title">
-    {{ $svg.Content | safeHTML }}
+    {{ $svg | safeHTML }}
     {{ title .AlertType }}
   </div>
   {{ .Text | safeHTML }}
 </blockquote>
-

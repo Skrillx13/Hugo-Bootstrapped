@@ -1,6 +1,7 @@
 # -- Hugo Packages --
 .hugo_build.lock
 public
+resources
 
 # -- Misc --
 .vscode

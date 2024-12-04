@@ -6,17 +6,22 @@ title: Index
 
 Can indeed verify. Also Minecraft Dungeons is swagger.
 
-> [!NOTE]
-> Useful information that users should know, even when skimming content.
+> [!NOTE]  
+> Highlights information that users should take into account, even when skimming.
 
 > [!TIP]
-> Helpful advice for doing things better or more easily.
+> Optional information to help a user be more successful.
 
-> [!IMPORTANT]
-> Key information users need to know to achieve their goal.
+> [!IMPORTANT]  
+> Crucial information necessary for users to succeed.
 
-> [!WARNING]
-> Urgent info that needs immediate user attention to avoid problems.
+> [!WARNING]  
+> Critical content demanding immediate user attention due to potential risks.
 
 > [!CAUTION]
-> Advises about risks or negative outcomes of certain actions.
+> Negative potential consequences of an action.
+
+> [!NOTE]
+> Try it yourself! Download the source code and working demo for using Bootstrap with React, Next.js, and React Bootstrap from the twbs/examples repository. You can also open the example in StackBlitz.
+
+Did it break :skull:
