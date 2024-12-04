@@ -18,17 +18,17 @@
 
 .chroma {
   padding: 16px;
-  border-radius: 8px;
-  background-color: #F8F9FA;
+  border: 1px solid #CCCCCC ;
+  border-radius: 4px;
+  background-color: #F5F5F5;
 }
-
 
 .hl { background-color: #c8c8fa; }
+
 .c {
-  color: #565c64;
+  color: #608B4E;
   font-style: italic; 
 }
-
 
 .err { color: #bc4c00; }
 .k { color: #a71d5d; }

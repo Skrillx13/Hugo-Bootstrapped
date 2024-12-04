@@ -4,7 +4,7 @@ title: Index
 
 # Bootstrapped
 
-Can indeed verify. Also Minecraft Dungeons is swagger.
+Can indeed verify. Also Minecraft Dungeons is swagger. [Here's some Syntax Highlighting](/syntaxes/)
 
 > [!NOTE]  
 > Highlights information that users should take into account, even when skimming.
@@ -23,18 +23,3 @@ Can indeed verify. Also Minecraft Dungeons is swagger.
 
 > [!NOTE]
 > Try it yourself! Download the source code and working demo for using Bootstrap with React, Next.js, and React Bootstrap from the twbs/examples repository. You can also open the example in StackBlitz.
-
-``` html
-<!-- leave me alone im paranoid -->
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
-  </head>
-  <body>
-    <h1>Hello, world!</h1>
-  </body>
-</html>
-```
