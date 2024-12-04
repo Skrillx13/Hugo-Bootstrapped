@@ -10,7 +10,7 @@ markup:
       unsafe: true
   highlight:
     enabled: true
-    theme: "prettier"
+    theme: "mew"
     noClasses: false
 
 # -- Chroma Configuration --

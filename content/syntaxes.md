@@ -1,6 +1,6 @@
 ---
-title: "Syntaxes"
-layout: "single"
+title: Syntaxes
+layout: home
 draft: false
 ---
 

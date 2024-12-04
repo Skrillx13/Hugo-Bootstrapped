@@ -1,4 +1,8 @@
-@import './clipboard.js';
+var clipboard = new ClipboardJS('.copy-btn');
+clipboard.on('success', function(e) {
+  alert('Code copied!');
+  e.clearSelection();
+});
 
 console.log("This is from main.js!");
 document.addEventListener("DOMContentLoaded", function() {

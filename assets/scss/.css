@@ -1,0 +1,105 @@
+/*
+    Theme: prettier
+    Description: A prettier Highlight JS style.
+    Website: https://highlightjs.org/
+    License: GNU V3
+*/
+
+/* Styles for the actual code block */
+pre code.hljs {
+    display: block;
+    overflow-x: auto;
+    padding: 1em
+  }
+
+  code.hljs {
+    padding: 3px 5px
+  }
+
+  pre code.hljs {
+    display: block;
+    overflow-x: auto;
+    padding: 1em
+  }
+
+  code.hljs {
+    padding: 3px 5px
+  }
+
+  .hljs {
+    background: #F5F5F5;
+    color: #444;
+    border: 1px solid #CCCCCC;
+    border-radius: 4px;
+  }
+
+  /* This is where the colours start! */
+  .hljs-comment,
+  .hljs-quote {
+    color: #608B4E;
+    font-style: italic
+  }
+
+  .hljs-doctag,
+  .hljs-keyword,
+  .hljs-formula {
+    color: #a71d5d
+  }
+
+  .hljs-section,
+  .hljs-name,
+  .hljs-selector-tag,
+  .hljs-deletion,
+  .hljs-subst {
+    color: #13795B
+  }
+
+  .hljs-literal {
+    color: #a71d5d
+  }
+
+  .hljs-string,
+  .hljs-regexp,
+  .hljs-addition,
+  .hljs-attribute,
+  .hljs-meta .hljs-string {
+    color: #795da3
+  }
+
+  .hljs-attr,
+  .hljs-variable,
+  .hljs-template-variable,
+  .hljs-type,
+  .hljs-selector-class,
+  .hljs-selector-attr,
+  .hljs-selector-pseudo,
+  .hljs-number {
+    color: #151515
+  }
+
+  .hljs-symbol,
+  .hljs-bullet,
+  .hljs-link,
+  .hljs-meta,
+  .hljs-selector-id,
+  .hljs-title {
+    color: #183691
+  }
+
+  .hljs-built_in,
+  .hljs-title.class_,
+  .hljs-class .hljs-title {
+    color: #087990;
+  }
+
+  .hljs-emphasis {
+    font-style: italic
+  }
+
+  .hljs-strong {
+    font-weight: bold
+  }
+
+  .hljs-link {
+    text-decoration: underline
+  }

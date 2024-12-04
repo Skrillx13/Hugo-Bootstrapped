@@ -1,3 +1,5 @@
+<!-- Default Frontmatter -->
+<!-- This Archetype prepares the default page Frontmatter as a Document. -->
 ---
 layout: docs
 title: Document
