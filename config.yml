@@ -8,11 +8,15 @@ markup:
   goldmark:
     renderer:
       unsafe: true
+  highlight:
+    enabled: true
+    theme: "prettier"
+    noClasses: false
 
 # -- Chroma Configuration --
 highlight:
   enabled: true
-  theme: "monokai"
+  theme: "prettier"
   noClasses: false
 
 # -- URL Configuration --

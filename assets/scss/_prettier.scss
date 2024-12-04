@@ -1,0 +1,126 @@
+:root,
+[data-bs-theme="light"] {
+  --base02: #c8c8fa;
+  --base03: #565c64;
+  --base04: #666;
+  --base05: #333;
+  --base06: #fff;
+  --base07: #9a6700; // #9a6700 (teal-700)
+  --base08: #bc4c00; // #bc4c00 (mix of red-500 and red-600)
+  --base09: #087990; // #087990 (cyan-700)
+  --base0A: #795da3; // #795da3 (purple-500)
+  --base0B: #183691; // #183691 (blue-700)
+  --base0C: #183691; // #183691 (blue-700)
+  --base0D: #795da3; // #795da3 (purple-500)
+  --base0E: #a71d5d; // #a71d5d (pink-600)
+  --base0F: #333;
+}
+
+.chroma {
+  padding: 16px;
+  border-radius: 8px;
+  background-color: #F8F9FA;
+}
+
+
+.hl { background-color: #c8c8fa; }
+.c {
+  color: #565c64;
+  font-style: italic; 
+}
+
+
+.err { color: #bc4c00; }
+.k { color: #a71d5d; }
+.l { color: #087990; }
+.n { color: #bc4c00; }
+.o { color: #333; }
+.p { color: #333; }
+.cm { color: #666; }
+.cp { color: #bc4c00; }
+.c1 { color: #565c64; }
+.cs { color: #666; }
+.gd { color: #bc4c00; }
+.ge { font-style: italic; }
+.gh {
+  font-weight: 600;
+  color: #795da3;
+}
+.gi { color: #98c379; }
+.gp {
+  font-weight: 600;
+  color: #666;
+}
+.gs { font-weight: 600; }
+.gu {
+  font-weight: 600;
+  color: #56b6c2;
+}
+.kc { color: #a71d5d; }
+.kd { color: #a71d5d; }
+.kn { color: #56b6c2; }
+.kp { color: #a71d5d; }
+.kr { color: #a71d5d; }
+.kt { color: #795da3; }
+.ld { color: #56b6c2; }
+.m { color: #087990; }
+.s { color: #56b6c2; }
+.na { color: #795da3; }
+.nb { color: #333; }
+.nc { color: #fff; }
+.no { color: #bc4c00; }
+.nd { color: #fff; }
+.ni { color: #bc4c00; }
+.ne { color: #bc4c00; }
+.nf { color: #98c379; }
+.nl { color: #333; }
+.nn { color: #795da3; }
+.nx { color: #795da3; }
+.py { color: #bc4c00; }
+.nt { color: #bc4c00; }
+.nv { color: #bc4c00; }
+.ow { color: #56b6c2; }
+.w { color: #fff; }
+.mf { color: #087990; }
+.mh { color: #087990; }
+.mi { color: #087990; }
+.mo { color: #087990; }
+.sb { color: #56b6c2; }
+.sc { color: #fff; }
+.sd { color: #666; }
+.s2 { color: #56b6c2; }
+.se { color: #087990; }
+.sh { color: #56b6c2; }
+.si { color: #087990; }
+.sx { color: #56b6c2; }
+.sr { color: #56b6c2; }
+.s1 { color: #56b6c2; }
+.ss { color: #56b6c2; }
+.bp { color: #333; }
+.vc { color: #bc4c00; }
+.vg { color: #bc4c00; }
+.vi { color: #bc4c00; }
+.il { color: #087990; }
+
+// Color commas in rgba() values
+.m + .o { color: #565c64; }
+
+// Fix bash
+.language-sh .c { color: #565c64; }
+
+.chroma {
+  .language-bash,
+  .language-sh {
+    .line::before {
+      color: #565c64;
+      content: "$ ";
+      user-select: none;
+    }
+  }
+
+  .language-powershell::before {
+    color: #56b6c2;
+    content: "PM> ";
+    user-select: none;
+  }
+}
