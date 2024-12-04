@@ -6,9 +6,14 @@ baseURL: https://skrillx13.github.io/Hugo-Bootstrapped/
 # -- Markup Configuration --
 markup:
   goldmark:
-    parser:
-      attribute:
-        block: true
+    renderer:
+      unsafe: true
+
+# -- Chroma Configuration --
+highlight:
+  enabled: true
+  theme: "monokai"
+  noClasses: false
 
 # -- URL Configuration --
 relativeURLs: true

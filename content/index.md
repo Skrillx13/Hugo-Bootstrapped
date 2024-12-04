@@ -24,4 +24,15 @@ Can indeed verify. Also Minecraft Dungeons is swagger.
 > [!NOTE]
 > Try it yourself! Download the source code and working demo for using Bootstrap with React, Next.js, and React Bootstrap from the twbs/examples repository. You can also open the example in StackBlitz.
 
-Did it break :skull:
+Icon kits don't work :skull:
+
+``` python
+print("hello, World")
+```
+
+<i class="mdi mdi-link"></i>
+<i class="mdi mdi-link-variant"></i>
+
+This is a test icon: :link:
+This is another test icon: :home:
+And another: :account:
